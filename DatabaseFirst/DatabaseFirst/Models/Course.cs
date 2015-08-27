@@ -22,6 +22,7 @@ namespace DatabaseFirst.Models
         public int CourseID { get; set; }
         public string CourseTitle { get; set; }
         public string Credits { get; set; }
+        public string CourseTutor{get; set;}
     
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
